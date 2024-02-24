@@ -17,4 +17,4 @@ app.use("/api", routes);
 
 const PORT = process.env.PORT || 4001;
 
-app.listen(PORT, () => console.log(`SERVER ON PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`Server on port <===> ${PORT}`));

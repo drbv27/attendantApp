@@ -3,22 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bandwidth/messaging": "^4.1.0",
-    "@sendgrid/mail": "^7.7.0",
-    "axios": "^1.6.7",
     "bcrypt": "^5.1.0",
-    "concurrently": "^7.6.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.3",
-    "nodemailer": "^6.9.0",
     "nodemon": "^2.0.22",
-    "pg": "^8.11.3",
-    "webpack": "^5.76.0",
-    "xml-js": "^1.6.11"
+    "webpack": "^5.76.0"
   },
   "scripts": {
     "server": "nodemon server",
