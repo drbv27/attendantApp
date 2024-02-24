@@ -54,7 +54,6 @@ async function createAttendance(req, res) {
     res.status(400).json({ message: err.message });
   }
 }
-
 async function getAttendanceByGroupAndDate(req, res) {
   const { groupId, date } = req.params;
 

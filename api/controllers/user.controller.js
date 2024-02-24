@@ -1,6 +1,5 @@
 const errorHandler = require("../utils/errorHandler.utils");
 const UserServices = require("../services/user.services");
-
 class UserController {
   static async createUser(req, res) {
     try {

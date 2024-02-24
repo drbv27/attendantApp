@@ -12,6 +12,7 @@ app.use(
   express.urlencoded({ limit: "10mb", extended: true, parameterLimit: 50000 })
 );
 app.use(cookieParser());
+
 app.use("/api", routes);
 
 const PORT = process.env.PORT || 4001;
