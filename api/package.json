@@ -1,0 +1,43 @@
+{
+  "name": "management-nevtis",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.76.0"
+  },
+  "scripts": {
+    "server": "nodemon server",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "depcheck": "depcheck"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  }
+}
